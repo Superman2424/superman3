@@ -1,0 +1,1 @@
+export function Input({ placeholder, type = 'text', name, required }) { return <input type={type} name={name} required={required} placeholder={placeholder} className='p-2 border rounded-md w-full' />; }
