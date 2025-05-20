@@ -1,0 +1,1 @@
+export function Textarea({ placeholder, name, className }) { return <textarea name={name} placeholder={placeholder} className={`p-2 border rounded-md w-full ${className}`} rows={4}></textarea>; }
